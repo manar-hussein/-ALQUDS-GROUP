@@ -1,0 +1,36 @@
+.navbar .navbar-brand span{
+    color: var(--darkMain--);
+    font-weight: bolder;
+ }
+ 
+ .activeNavbar{
+    border-bottom: 3px solid white;
+  
+ }
+ nav .navbar-brand{
+   color: var(--darkMain--);
+   font-weight: bolder;
+ }
+ nav a{
+   color:white;
+   font-weight: bolder;
+ }
+ @media screen and (max-width:600px) {
+  nav{
+    background-color: rgba(0,0,0,0.95) !important;
+    padding: 10px !important;
+  }
+  nav .navbar-brand {
+    color: white !important;
+   padding-left: 50px !important;
+}
+nav .navbar-brand span{
+  color: white !important;
+}
+nav .navbar-toggler{
+ background-color: white;
+}
+nav .nav-item{
+  color: white !important;
+}
+ }

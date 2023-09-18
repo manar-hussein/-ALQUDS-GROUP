@@ -1,0 +1,25 @@
+
+<div class="sideBar mt-5 py-5 px-3">
+    <ul class="list-unstyled maxWidth">
+        <li routerLink="about" routerLinkActive="homeActive" class="py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>ABOUT</li>
+        <li routerLink="serv"  routerLinkActive="homeActive" class="py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>OUR SERVICES</li>
+        <li routerLink="steel-ctalog"  routerLinkActive="homeActive" class="py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>Catalogs and Brochures</li>
+        <li routerLink="steel-crtificate"  routerLinkActive="homeActive" class="py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>Certificates</li>
+    </ul>
+</div>
+<div class="dropdown pt-5 mt-4">
+    <button class="btn btn-secondary dropdown-toggle w-100" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      More About alquds steel
+    </button>
+    <ul class="dropdown-menu w-100">
+        <li routerLink="about" routerLinkActive="homeActive" class="dropdown-item py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>ABOUT</li>
+        <li routerLink="serv"  routerLinkActive="homeActive" class="dropdown-item py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>OUR SERVICES</li>
+        <li routerLink="steel-ctalog"  routerLinkActive="homeActive" class="dropdown-item py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>Catalogs and Brochures</li>
+        <li routerLink="steel-crtificate"  routerLinkActive="homeActive" class="dropdown-item py-2 my-2 px-3  fw-bolder border-bottom border-2"><i class="fa-solid fa-chevron-right fa-sm me-2"></i>Certificates</li>
+    </ul>
+  </div>
+<div class="row py-5 justify-content-end">
+    <div class="col-md-10">
+        <router-outlet></router-outlet>
+    </div>
+</div>

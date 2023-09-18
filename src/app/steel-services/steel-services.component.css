@@ -1,0 +1,14 @@
+
+.img{
+    height: 200px;
+}
+.body{
+    height: 200px;
+}
+.servCard{
+    transition: all 0.5s;
+}
+.servCard:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px gray;
+}

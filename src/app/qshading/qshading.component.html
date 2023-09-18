@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link fw-bolder" aria-current="page" routerLink="/home">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder"  routerLink="/steel">AL QUDS STEEL</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bolder">Q FORM</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+</nav>
+<div class="container-fluid py-1">
+    <div class="row">
+<div id="sideNav" class="d-flex justify-content-center align-items-start col-md-2">
+    <div>
+        <ul class="list-unstyled">
+            <li class="fw-bolder py-2 px-3 rounded-3 fs-4" routerLink="home">
+                Q SHADING
+            </li>
+            <li class="fw-bolder py-2 px-3 rounded-3" routerLink="about" routerLinkActive="shadingActive">
+                About
+            </li>
+            <li class="fw-bolder py-2 px-3 rounded-3" >
+                Projects
+            </li>
+            <li class="fw-bolder py-2 px-3 rounded-3">
+                News
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="col-md-10">
+   <router-outlet></router-outlet>
+</div>
+    </div>
+</div>

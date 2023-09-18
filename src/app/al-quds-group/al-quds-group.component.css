@@ -1,0 +1,9 @@
+.navbar .navbar-brand span{
+    color: var(--darkMain--);
+ }
+ 
+ .activeNavbar{
+    background-color: var(--darkMain--);
+    color: white;
+    border-radius: 8%;
+ }

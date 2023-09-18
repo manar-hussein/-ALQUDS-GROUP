@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+    --mainFont:'Playfair Display', serif;
+    --logoColor--:#13659b;
+    --mainColor--:#1e202b;
+    --secondaruColor--:#906440;
+    --sugColor1--:#24353f;
+     --sugColor2--:white;
+    --sugColor3--:rgb(50 53 68);
+    --darkMain--:#06436f;
+    --ligtMain--:#2786ce;
+    --secondaryDarkColor--:#55b3ea;
+    --secondaryLightColor:#c5e6fc;
+    --darkRed--:#3e1a21;
+    --darkYello-:#e1c21f;
+    --lightRed--:rgb(156 67 82);
+    --lightYello--:rgb(240 227 145);
+}
+*{
+    font-family: 'Playfair Display', serif;
+}

@@ -1,0 +1,18 @@
+.container-fluid{
+    background-color: white;
+    color: var(--darkMain--);
+    height: 100vh;
+}
+#sideNav ul li{
+    transition: all 0.5s;
+}
+#sideNav ul li:hover{
+    transform: translateX(5%);
+    background-color: var(--darkMain--);
+    color: white;
+}
+.shadingActive{
+    background-color: var(--darkMain--);
+    color: white;
+    border-radius: 105;
+}

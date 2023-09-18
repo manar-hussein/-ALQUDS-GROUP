@@ -1,0 +1,28 @@
+a{
+    font-weight: bolder;
+}
+#sideNav ul li{
+    transition: all 0.5s;
+}
+#sideNav ul li:hover{
+    transform: translateX(5%);
+    background-color: var(--darkMain--);
+    color: white;
+}
+.steelActive{
+    background-color: var(--darkMain--);
+    color: white !important;
+}
+.nav-item{
+    margin-right: 20px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.dropdown-item{
+    font-weight: bolder;
+    font-size: 14px;
+}
+nav{
+    z-index: 9999;
+    background:white;
+}

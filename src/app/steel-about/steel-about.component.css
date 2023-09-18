@@ -1,0 +1,29 @@
+/* .container-fluid{
+    height: 92vh;
+    color: var(--darkMain--);
+}
+.col-md-4{
+    height: 92vh;
+}
+.pic{
+    width: 200%;
+}
+.cusPic{
+    height: 170px;
+}
+ul li{
+    color: var(--darkYello-);
+}
+.cicon{
+    width: 150px;
+    height: 150px;
+    background-color: #f1f1f1;
+    transition: all 0.5s;
+    background-color: var(--darkMain--);
+    color: white;
+}
+.cicon:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px black;
+    
+} */
